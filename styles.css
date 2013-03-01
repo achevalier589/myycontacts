@@ -1,0 +1,68 @@
+ body {
+	/* background-color:#0769AD; */
+} 
+
+div.container {
+/* 	margin: -20px -25px 15px;
+	padding: 20px; 
+ 	background-color:white;
+	color: white; */
+}
+
+nav#main .searchform input {
+	text-decoration: none;
+	font: 12px/12px "Lucida Grande", Lucida, Verdana, sans-serif;
+	padding: 5px 10px;
+	margin: 0;
+	background-color: transparent;
+	border-style: none;
+	color: white;
+	line-height: 1.3;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.76);
+	width: 85%;
+	box-shadow: none;
+}
+
+header {
+	background:transparent url(images/iOS-contacts-logo.png) no-repeat;
+	padding:20px 0px 25px 260px;
+}
+
+header a {
+	display:inline-block;
+	color:#000;
+	transition:color 1s;
+	-webkit-transition:color 1s;
+}
+
+header a:hover {
+	color:#149125;
+	text-decoration:none;
+	-webkit-transform:rotate(180deg);
+}
+
+header h2 {
+	font-size:22px;
+	color:#999;
+}
+
+header h1, header h2 {
+	
+}
+
+input.phone {
+	text-align:center;	
+}
+
+input.phone.span1 {
+	width:50px;
+}
+
+input.phone.span2 {
+	width:70px;
+}
+
+.form-inline {
+	display:inline-block;
+	margin:2px 0px 2px 0px;
+}
